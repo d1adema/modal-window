@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>modal</title>
+</head>
+<body>
+    <div class="overlay-wrapper">
+        <div id="overlay"></div>
+        <div class="modal-window">
+            <div class="modal-title">Свяжитесь с нами!</div>
+            <div class="modal-name">
+                <div class="modal-name-title">Имя | Фамилия</div>
+                <form action="#" autocomplete="on" method="post" class="modal-name-form">
+                    <label>
+                        <input type="text" required placeholder="Ваше имя" name="name" class="modal-name-input">
+                    </label>
+                </form>
+            </div>
+            <div class="modal-number">
+                <div class="modal-number-title">Номер телефона</div>
+                <form action="#" autocomplete="on" method="post" class="modal-number-form">
+                    <label>
+                        <input type="tel" required placeholder="Ваш номер телефона" name="phone" class="modal-number-input">
+                    </label>
+                </form>
+            </div>
+            <div class="modal-close">Готово!</div>
+        </div>
+    </div>
+</body>
+</html>
