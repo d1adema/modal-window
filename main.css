@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(178, 178, 178, 1);
+}
+
+#overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.modal-window {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 330px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 10px 0 30px 5px;
+}
+
+.modal-title {
+  display: block;
+  font-family: Arial, cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.modal-name {
+  margin-top: 50px;
+}
+
+.modal-name-title {
+  margin-left: 55px;
+  font-family: Arial, cursive;
+  font-weight: lighter;
+}
+
+.modal-name-form {
+  margin-top: 5px;
+}
+
+.modal-name-input {
+  background-color: rgba(217, 217, 217, 1);
+  border: none;
+  border-radius: 2px;
+  width: 295px;
+  height: 30px;
+  outline: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+::placeholder {
+  color: rgba(101, 101, 101, 1);
+  font-size: 15px;
+}
+
+.modal-number {
+  margin-top: 25px;
+}
+
+.modal-number-title {
+  margin-left: 55px;
+  font-family: Arial, cursive;
+  font-weight: lighter;
+}
+
+.modal-number-form {
+  margin-top: 5px;
+}
+
+.modal-number-input {
+  background-color: rgba(217, 217, 217, 1);
+  border: none;
+  border-radius: 2px;
+  width: 295px;
+  height: 30px;
+  outline: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+::placeholder {
+  color: rgba(101, 101, 101, 1);
+  font-size: 15px;
+}
+
+.modal-close {
+  display: block;
+  margin: 50px auto;
+  width: 110px;
+  height: 35px;
+  background-color: rgba(126, 184, 184, 1);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.modal-close:hover {
+  box-shadow: inset 0 -3.5px 0 rgba(0, 0, 0, 0.12);
+  color: rgb(240, 240, 240);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 100%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
